@@ -1,0 +1,73 @@
+.share {
+    width: 100%;
+    /* padding: 20px; */
+    height: 170px;
+    border-radius: 10px;
+    /* overflow-y: scroll; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.shareWrapper{
+    padding: 10px;
+}
+ .shareProfile{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}  
+
+ .shareTop{
+    display: flex;
+    align-items: center;
+    
+}
+.shareInput{
+    margin-left: 5px;
+    border: none;
+    width: 80%;
+    font-size: 15px;
+}  
+
+.shareInput:focus{
+    outline: none;
+}
+
+.shareHr{
+    margin: 20px;
+}
+
+.shareBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shareOptins{
+    margin-left: 20px;
+    display: flex;
+}
+
+.shareOption{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.shareMediaIcon{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.shareButton{
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    /* background-color: rgb(61, 241, 61); */
+    background-color: green;
+    cursor: pointer;
+    color: white;
+    margin-right: 20px;
+}
